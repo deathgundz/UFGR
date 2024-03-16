@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UFGR | Top 32</title>
+<link rel="stylesheet" href="top32.css">
+<script src="navigation.js" defer></script>
+<link rel="icon" type="image/x-icon" href="logos/logo.ico">
+</head>
+<body>
+<div class="container">
+    <h1>Your Top 32 Characters</h1>
+    <div id="characters" class="characters"></div>
+    <button id="startButton">Your Top 32 are Ready to Rock!</button>
+    <button onclick="redirectToPage()" id="startTop16Button" style="display: non;">Let's Start the Top 16 Matches!</button>
+    <script>
+        function redirectToPage() {
+            // Replace 'destination.html' with the path to your desired HTML page
+            window.location.href = 'top32_matches.html';
+        }
+    </script>
+
+</div>
+<div id="bg-music-container">
+    <object type="text/html" data="music.html"></object>
+</div>
+
+    
+<script src="top32.js"></script>
+</body>
+</html>

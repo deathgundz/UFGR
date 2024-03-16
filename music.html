@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Check if music is already playing
+            const isMusicPlaying = sessionStorage.getItem('isMusicPlaying');
+            const musicPosition = sessionStorage.getItem('musicPosition');
+
+            const bgMusic = document.getElementById('bg-music');
+
+            if (!isMusicPlaying) {
+                // Music is not playing, so start it
+                bgMusic.play();
+
+                // Set flag to indicate that music is playing
+                sessionStorage.setItem('isMusicPlaying', 'true');
+            } else if (musicPosition) {
+                // Set the playback position if available
+                bgMusic.currentTime = parseFloat(musicPosition);
+            }
+
+            // Save the playback position when leaving the page
+            window.addEventListener('beforeunload', function () {
+                sessionStorage.setItem('musicPosition', bgMusic.currentTime.toString());
+            });
+        });
+    </script>
+</head>
+<body>
+    <!-- Your HTML content here -->
+    <audio id="bg-music" autoplay loop>
+        <source src="music/2b grablue.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+</html>

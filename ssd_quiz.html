@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ultimate Fighting Games Rating</title>
+<meta name="description" content="in this phase you are going to rate the king of fighter xs charchters just by their looks and you have only 10 seconds to do so , so lets find who is the coolest character in the game">
+<link rel="stylesheet" href="ssd_quiz.css">
+<script src="navigation.js" defer></script>
+<link rel="icon" type="image/x-icon" href="logos/logo.ico">
+</head>
+<body>
+    <div class="picture-background">
+        <!-- Your fixed picture goes here -->
+        <img src="logos/cloud.png" alt="Picture">
+    </div>
+    <div class="video-background">
+        <video id="samurai" muted autoplay loop>
+            <source src="logos/samurai backgound.mp4" type="video/mp4">
+        </video>
+        
+    </div>
+
+</div>
+    <div>
+        <audio autoplay loop>
+         <source src="music/ssd music.m4a" type="audio/mp4">
+         <source src="music/ssd music.mp3" type="audio/mpeg">
+       </audio>
+     </div>
+<div class="container">
+    
+     <button style="color: rgba(0, 17, 255, 0.905);"  id="play-button">pause &#9612;&#9612;</button>
+     <h6 style="margin: -2.5%;"> <h6 style="color: aliceblue;">    music </h6 >
+    <hr style="margin: -2%;">
+     
+    <h1 style="color: rgba(190, 222, 8, 0.511);">Rate The Character </h1>
+    <div class="picture-container">
+        <img id="picture" src="" alt="Picture">
+    </div>
+    <div  class="rating-container">
+        <input type="range" min="1" max="10" value="5" class="slider" id="rating-slider">
+        <span id="slider-value">5</span>
+    </div>
+    <div class="timer-container">
+        <div class="timer-bar"></div>
+    </div>
+    
+     <button id="rate-button"><h2 style="color: rgb(126, 134, 5);"><strong>Rate here </strong> </h2></button> 
+     
+     
+</div>
+
+  
+
+<script src="ssd_quiz.js"></script>
+</body>
+</html>

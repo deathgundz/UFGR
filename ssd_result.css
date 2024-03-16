@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    background-image: url(logos/ssd\ logo.png);
+    background-position: 00px,0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #dadadac5;
+    border-radius: 50px;
+    box-shadow: 0 0 100px rgb(255, 255, 255);
+}
+
+.top-three-ssd-list {
+    margin-top: 20px;
+    text-align: left ;
+    margin-left: 20px;
+}
+
+.top-three-ssd-list img {
+    max-width: 200px;
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+    
+}

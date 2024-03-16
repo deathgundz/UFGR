@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    background-image: url(logos/top1.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position-x: 200px;
+}
+
+header {
+    background-color: #ff0101;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    margin-top: -15px;
+}
+
+button {
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 50px rgb(255, 255, 255);
+}
+
+.button:hover {
+    background-color: #000000;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.match-card {
+    margin: -80px;
+    margin-top: -300px;
+    padding: 0px;
+    border: 6px solid #ff0000;
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    scale: 50%;
+    border-radius: 5px;
+    box-shadow: 0 0 40px rgb(255, 0, 0);
+    margin-bottom: -300px;
+    background-color: #494949d5;
+}
+
+.match-card img {
+    width: 700px;
+    height: 1300px;
+    border-radius: 0%;
+    object-fit: cover;
+}
+
+.match-card p {
+    font-weight: bold;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent background */
+}
+
+.modal-content {
+    background-color: #fefefebd;
+    margin: 15% auto;
+    padding: 20px;
+    border: 3px solid #000000;
+    width: 80%;
+}
+#bg-music-container {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    visibility: hidden;
+  }
+  
+  .bottom-right-image {
+    position: fixed; /* Keep the image fixed at the bottom right */
+    bottom: 10px;    /* Adjust the distance from the bottom edge */
+    right: 10px;     /* Adjust the distance from the right edge */
+    width: 300px;    /* Adjust the width of the image */
+    height: 200px;   /* Adjust the height of the image */
+    z-index: 1;      /* Ensure the image stays above other elements if needed */
+  }
+  
+  .bottom-right-image img {
+    width: 100%;     /* Stretch the image to fill the container's width */
+    height: 100%;    /* Stretch the image to fill the container's height */
+   
+  }
+  
+  /* Apply hover effect only to the parent container */
+  .bottom-right-image:hover {
+    width: 1100px; /* Width on hover */
+    height: 800px; /* Height on hover */
+    transition: width 0.5s ease, height 0.5s ease;
+    background-color: rgba(0, 0, 0, 0.475); /* Change background color on hover */
+    border: 3px solid #ffffff;
+    
+    
+  }
+  

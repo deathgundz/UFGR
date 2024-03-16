@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #373737;
+    background-image: url(logos/Tekken\ 8\ logo\ .png)  ;
+    background-position: 00px,0px;
+    background-size: 100%;
+    
+    
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #656565;
+    border-radius: 50px;
+    box-shadow: 0 0 100px rgb(65, 0, 11);
+}
+
+.top-four-tekken8-list {
+    margin-top: 20px;
+    text-align: left ;
+    margin-left: 20px;
+}
+
+.top-four-tekken8-list img {
+    max-width: 200px;
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+    
+}

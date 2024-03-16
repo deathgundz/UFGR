@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #080000;
+    
+    background-image: url(logos/mbtl.png)  ;
+    background-position: 5%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffffbb;
+    border-radius: 50px;
+    box-shadow: 0 0 100px rgba(0, 234, 255, 0.34);
+}
+
+.picture-container {
+    margin-bottom: 20px;
+}
+
+.picture-container img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.rating-container {
+    margin-bottom: 10px;
+}
+
+.slider {
+   color: #ff0000;
+    width: 80%;
+  
+}
+
+.rating-container span {
+    color: #0379ff;
+    text-shadow: #000000;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.timer-container {
+    width: 100%;
+    height: 16px;
+    background-color: #00eaff;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.timer-bar {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    animation: timerAnimation 10s linear infinite;
+}
+
+@keyframes timerAnimation {
+    0% { width: 100%; }
+    100% { width: 0%; }
+}

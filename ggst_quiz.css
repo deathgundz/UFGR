@@ -1,0 +1,87 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #080000;
+    
+    background-image: url(logos/ggst\ logo\ 1.png)  ;
+    background-position: 5%;
+    background-size: 100%;
+    
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffffc2;
+    border-radius: 50px;
+    box-shadow: 0 0 100px rgba(255, 0, 0, 0.34);
+}
+
+.picture-container {
+    margin-bottom: 20px;
+}
+
+.picture-container img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 5px;
+}
+.slider {
+    
+     -webkit-appearance: none;
+    appearance: none;
+    width: 80%;
+    height: 10px;
+    background: linear-gradient(to right, rgb(0, 0, 0) 10%, red 100%);
+    border-radius: 5px;
+    outline: none;
+   
+ }
+ .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: rgb(0, 0, 0);
+    cursor: pointer;
+  }
+.rating-container {
+    margin-bottom: 10px;
+    color: #ff0d0d;
+   
+}
+  
+.rating-container span {
+    color: #fd1100;
+    text-shadow: #000000;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.timer-container {
+    width: 100%;
+    height: 16px;
+    background-color: #000000;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.timer-bar {
+    width: 100%;
+    height: 100%;
+    background-color: #ff0000;
+    animation: timerAnimation 10s linear infinite;
+}
+
+@keyframes timerAnimation {
+    0% { width: 100%; }
+    100% { width: 0%; }
+}
+
+  
+  
+  

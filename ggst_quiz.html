@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ultimate Fighting Games Rating</title>
+<meta name="description" content="in this phase you are going to rate guilty gear -strive- charchters just by their looks and you have only 10 seconds to do so , so lets find who is the coolest character in the game">
+<link rel="stylesheet" href="ggst_quiz.css">
+<script src="navigation.js" defer></script>
+<link rel="icon" type="image/x-icon" href="logos/logo.ico">
+</head>
+<body>
+    
+    <div>
+        <audio autoplay loop>
+         <source src="music/ggst ost.m4a" type="audio/mp4">
+         <source src="music/ggst ost.mp3" type="audio/mpeg">
+       </audio>
+     </div>
+<div class="container">
+    
+     <button style="color: rgb(255, 174, 0);"  id="play-button">pause &#9612;&#9612;</button>
+     <h6 style="margin: 0.5%;">     music </h6 >
+    <hr style="margin: 0.5%;">
+     
+    <h1 style="color: rgb(0, 0, 0);">Rate The Character </h1>
+    <div class="picture-container">
+        <img id="picture" src="" alt="Picture">
+    </div>
+    <div  class="rating-container">
+        <input type="range" min="1" max="10" value="5" class="slider" id="rating-slider">
+        <span id="slider-value">5</span>
+    </div>
+    <div class="timer-container">
+        <div class="timer-bar"></div>
+    </div>
+    
+     <button id="rate-button"><h2 style="color: rgb(240, 4, 4);"><strong>Rate here </strong> </h2></button> 
+     
+
+</div>
+
+  
+
+<script src="ggst_quiz.js"></script>
+</body>
+</html>

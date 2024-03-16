@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    background-image: url(logos/logo.png) ;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-x: center;
+    background-position-y: cover;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #000000;
+}
+
+.characters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.characters img {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    background-color: #fafafa;
+    
+}
+
+button {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgb(30, 255, 0);
+}
+
+button:hover {
+    background-color: #00b33c;
+}
+#startTop16Button {
+    background-color: #707070;
+    border-color: #000000;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+    padding: 15px 350px;
+    text-align: center;
+    text-decoration: dotted;
+    display: inline-block;
+    font-size: 20px; /* Adjust the font size as needed */
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 0 30px rgb(117, 117, 117);
+    white-space: nowrap; /* Ensure the text stays in one line */
+}
+
+

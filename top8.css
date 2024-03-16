@@ -1,0 +1,76 @@
+body {
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    
+}
+
+header {
+    background-color: #01ffe1;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    margin-top: -15px;
+}
+
+button {
+    background-color: #c720ff;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.755);
+}
+.button:hover {
+    background-color: #efefef;
+    box-shadow: 0 0 20px rgb(65, 255, 2);
+    border-radius: 5px;
+  }
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.match-card {
+    margin: -65px;
+    margin-top: -300px ;
+    padding: 0px;
+    border: 6px solid #00fbff;
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    scale: 50%;
+    border-radius: 5px;
+    box-shadow: 0 0 30px rgb(0, 255, 225);
+    margin-bottom: -300px;
+}
+
+.match-card img {
+    width: 300px;
+    height: 1300px;
+    border-radius: 0%;
+    object-fit: cover;
+    
+}
+
+.match-card p {
+    
+    font-weight: bold;
+}
+#bg-music-container {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    visibility: hidden;
+}

@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    background-image: url(logos/dnf\ logo.png)  ;
+    background-position: 800px,0px;
+    background-size: 70% ;
+    
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f994;
+    border-radius: 50px;
+    box-shadow: 0 0 100px rgba(255, 120, 1, 0.592);
+}
+
+.top-three-dnf-list {
+    margin-top: 20px;
+    text-align: left ;
+    margin-left: 20px;
+}
+
+.top-three-dnf-list img {
+    max-width: 200px;
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+    
+}

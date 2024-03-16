@@ -1,0 +1,131 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #080000;
+    
+    
+}
+
+
+/* Picture background container */
+.picture-background {
+    position: fixed;
+    top: 520px;
+    left: -100px;
+    width: 120%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden; /* Ensure that content outside the container is hidden */
+}
+
+/* Picture */
+.picture-background img {
+    width: 100%; /* Ensure the image spans the entire width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure proper rendering as a block element */
+    position: absolute; /* Position the images absolutely within the container */
+    left: -100%; /* Initially position the images outside the container on the left */
+    animation: moveRight 200s linear infinite; /* Apply the animation */
+}
+
+@keyframes moveRight {
+    0% {
+        transform: translateX(80%); /* Start from the left side */
+    }
+    100% {
+        transform: translateX(105%); /* Move to the right side */
+    }
+}
+
+
+.container {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #2d2d2dd3;
+    border-radius: 50px;
+    box-shadow: 0 0 100px rgb(255, 255, 255);
+}
+
+.picture-container {
+    margin-bottom: 20px;
+}
+
+.picture-container img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 5px;
+}
+.slider {
+    
+     -webkit-appearance: none;
+    appearance: none;
+    width: 80%;
+    height: 10px;
+    background: linear-gradient(to right, rgba(97, 99, 0, 0.468) 30%, rgb(242, 255, 0) 85%);
+    border-radius: 5px;
+    outline: none;
+   
+ }
+ .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 10%;
+    background: rgba(187, 177, 25, 0.966);
+    cursor: pointer;
+  }
+.rating-container {
+    margin-bottom: 10px;
+    color: #0dbaff;
+   
+}
+  
+.rating-container span {
+    color: #fdf000;
+    text-shadow: #000000;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.timer-container {
+    width: 100%;
+    height: 16px;
+    background-color: #a0790471;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.timer-bar {
+    width: 100%;
+    height: 100%;
+    background-color: #fff700;
+    animation: timerAnimation 10s linear infinite;
+}
+
+@keyframes timerAnimation {
+    0% { width: 100%; }
+    100% { width: 0%; }
+}
+/* Video background container */
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -2;
+}
+
+/* Video element */
+#samurai {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}

@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    background-image: url(logos/gbfvr\ logo.jpg)  ;
+    background-position: 10px, 1000px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #c7c7c7e6;
+    border-radius: 50px;
+    box-shadow: 0 0 100px rgba(1, 242, 255, 0.592);
+}
+
+.top-three-gbfvr-list {
+    margin-top: 20px;
+    text-align: left ;
+    margin-left: 20px;
+}
+
+.top-three-gbfvr-list img {
+    max-width: 300px;
+    height: auto;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    vertical-align: middle;
+    
+}
