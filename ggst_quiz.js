@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
         "ultimate fighting games rating/Guilty Gear -STRIVE-/Ky.png",
         "ultimate fighting games rating/Guilty Gear -STRIVE-/Leo.png",
         "ultimate fighting games rating/Guilty Gear -STRIVE-/Johnny.png",
-        "ultimate fighting games rating/Guilty Gear -STRIVE-/Jack-o.png",
+        "ultimate fighting games rating/Guilty Gear -STRIVE-/Jack-O.png",
         "ultimate fighting games rating/Guilty Gear -STRIVE-/I-No.png",
         "ultimate fighting games rating/Guilty Gear -STRIVE-/Goldlewis.png",
         "ultimate fighting games rating/Guilty Gear -STRIVE-/Giovanna.png",
