@@ -30,3 +30,18 @@ body {
     vertical-align: middle;
     
 }
+/* Positioning the ad on the right side */
+.ads-right {
+    position: fixed; /* You can also use 'absolute' if you prefer */
+    top: 0; /* Adjust as needed */
+    right: 0; /* Adjust as needed */
+    z-index: 9999; /* Adjust as needed */
+}
+
+/* Positioning the ad on the left side */
+.ads-left {
+    position: fixed; /* You can also use 'absolute' if you prefer */
+    top: 0; /* Adjust as needed */
+    left: 0; /* Adjust as needed */
+    z-index: 9999; /* Adjust as needed */
+}
