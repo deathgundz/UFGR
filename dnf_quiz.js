@@ -1,7 +1,7 @@
 
 document.addEventListener('DOMContentLoaded', function () {
     const pictures = [
-        "ultimate fighting games rating/DNF Duel/Battle mage.png",
+        "ultimate fighting games rating/DNF Duel/Battle Mage.png",
         "ultimate fighting games rating/DNF Duel/Berserker.png",
         "ultimate fighting games rating/DNF Duel/Brawler.png",
         "ultimate fighting games rating/DNF Duel/Crusader.png",
