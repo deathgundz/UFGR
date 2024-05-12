@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function () {
         localStorage.setItem('topThreemk1Ratings', JSON.stringify(sortedRatings));
 
         // Redirect to the result page
-        window.location.href = 'mK1_result.html';
+        window.location.href = 'mk1_result.html';
     }
 
     function restartTimer() {
