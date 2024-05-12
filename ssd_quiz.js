@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
         "ultimate fighting games rating/Samurai Shodown/Sogetsu.png",
         "ultimate fighting games rating/Samurai Shodown/Tam Tam.png",
         "ultimate fighting games rating/Samurai Shodown/Ukyo Tachibana.png",
-        "ultimate fighting games rating/Samurai Shodown/WAn-Fu.png",
+        "ultimate fighting games rating/Samurai Shodown/Wan-Fu.png",
         "ultimate fighting games rating/Samurai Shodown/Warden.png",
         "ultimate fighting games rating/Samurai Shodown/Wu-Ruixiang.png",
         "ultimate fighting games rating/Samurai Shodown/Yashamaru Kurama.png",
