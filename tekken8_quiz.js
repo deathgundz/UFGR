@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
         "ultimate fighting games rating/Tekken 8/Victor Chevalier.png",
         "ultimate fighting games rating/Tekken 8/Marshall Law.png",
         "ultimate fighting games rating/Tekken 8/King.png",
-        "ultimate fighting games rating/Tekken 8/Devil jin.png",
+        "ultimate fighting games rating/Tekken 8/Devil Jin.png",
         "ultimate fighting games rating/Tekken 8/Claudio.png",
         "ultimate fighting games rating/Tekken 8/Kazuya mishima.png",
         "ultimate fighting games rating/Tekken 8/Ling Xiaoyu.png",
