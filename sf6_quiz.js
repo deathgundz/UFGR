@@ -20,7 +20,8 @@ document.addEventListener('DOMContentLoaded', function () {
         "ultimate fighting games rating/Street Fighter 6/marisa.png",
         "ultimate fighting games rating/Street Fighter 6/rashid.png",
         "ultimate fighting games rating/Street Fighter 6/ryu.png",
-        "ultimate fighting games rating/Street Fighter 6/zangief.png"
+        "ultimate fighting games rating/Street Fighter 6/zangief.png",
+        "ultimate fighting games rating/Street Fighter 6/akuma.png"
     ];
 
     let currentIndex = 0;
