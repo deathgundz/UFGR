@@ -26,7 +26,9 @@ document.addEventListener('DOMContentLoaded', function () {
         "ultimate fighting games rating/Guilty Gear -STRIVE-/Sol.png",
         "ultimate fighting games rating/Guilty Gear -STRIVE-/Sin.png",
         "ultimate fighting games rating/Guilty Gear -STRIVE-/Ramlethal.png",
-        "ultimate fighting games rating/Guilty Gear -STRIVE-/Potemkin.png"
+        "ultimate fighting games rating/Guilty Gear -STRIVE-/Potemkin.png",
+        "ultimate fighting games rating/Guilty Gear -STRIVE-/A.B.A.png",
+        "ultimate fighting games rating/Guilty Gear -STRIVE-/Slayer.png"
 
     ];
 
