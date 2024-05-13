@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const pictures = [
         "ultimate fighting games rating/Mortal Kombat 1/ASHRAH.png",
         "ultimate fighting games rating/Mortal Kombat 1/BARAKA.png",
+        "ultimate fighting games rating/Mortal Kombat 1/ermac.png",
         "ultimate fighting games rating/Mortal Kombat 1/GÉNÉRAL SHAO.png",
         "ultimate fighting games rating/Mortal Kombat 1/GERAS.png",
         "ultimate fighting games rating/Mortal Kombat 1/HAVIK.png",
