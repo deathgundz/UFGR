@@ -32,7 +32,8 @@ document.addEventListener('DOMContentLoaded', function () {
         "ultimate fighting games rating/Tekken 8/FengWei.png",
         "ultimate fighting games rating/Tekken 8/Lars Alexandersson.png",
         "ultimate fighting games rating/Tekken 8/Panda.png",
-        "ultimate fighting games rating/Tekken 8/Zafina.png"
+        "ultimate fighting games rating/Tekken 8/Zafina.png",
+        "ultimate fighting games rating/Tekken 8/eddy.jpg"
 
     ];
 
