@@ -19,7 +19,8 @@ document.addEventListener('DOMContentLoaded', function () {
         "ultimate fighting games rating/DNF Duel/Striker.png",
         "ultimate fighting games rating/DNF Duel/Swift Master.png",
         "ultimate fighting games rating/DNF Duel/Troubleshooter.png",
-        "ultimate fighting games rating/DNF Duel/Vanguard.png"
+        "ultimate fighting games rating/DNF Duel/Vanguard.png",
+        "ultimate fighting games rating/DNF Duel/monk.png"
         
     ];
 
