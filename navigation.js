@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "mbtl_quiz.html",
         "mbtl_result.html",
         "mk1_quiz.html",
-        "mK1_result.html",
+        "mk1_result.html",
         "gbfvr_quiz.html",
         "gbfvr_result.html",
         "ssd_quiz.html",
