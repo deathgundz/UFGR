@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
         "ultimate fighting games rating/Granblue Fantasy Versus Rising/lucilius.png",
         "ultimate fighting games rating/Granblue Fantasy Versus Rising/anre.png",
         "ultimate fighting games rating/Granblue Fantasy Versus Rising/eustace.png",
+        "ultimate fighting games rating/Granblue Fantasy Versus Rising/beatrix.png",
         "ultimate fighting games rating/Granblue Fantasy Versus Rising/lowain.png",
         "ultimate fighting games rating/Granblue Fantasy Versus Rising/anila.png",
         "ultimate fighting games rating/Granblue Fantasy Versus Rising/djeeta.png",
