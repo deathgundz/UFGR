@@ -31,7 +31,10 @@ document.addEventListener('DOMContentLoaded', function () {
         "ultimate fighting games rating/Granblue Fantasy Versus Rising/nier.png",
         "ultimate fighting games rating/Granblue Fantasy Versus Rising/katalina.png",
         "ultimate fighting games rating/Granblue Fantasy Versus Rising/cagliostro.png",
-        "ultimate fighting games rating/Granblue Fantasy Versus Rising/vane.PNG"
+        "ultimate fighting games rating/Granblue Fantasy Versus Rising/vane.PNG",
+        "ultimate fighting games rating/Granblue Fantasy Versus Rising/versusia.webp",
+        "ultimate fighting games rating/Granblue Fantasy Versus Rising/vikala.webp"
+        
 
     ];
 
