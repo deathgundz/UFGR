@@ -56,7 +56,9 @@ document.addEventListener('DOMContentLoaded', function () {
         "ultimate fighting games rating/The King of Fighters XV/kukri.png",
         "ultimate fighting games rating/The King of Fighters XV/meitenkun.png",
         "ultimate fighting games rating/The King of Fighters XV/ramon.png",
-        "ultimate fighting games rating/The King of Fighters XV/sylvie.png"
+        "ultimate fighting games rating/The King of Fighters XV/sylvie.png",
+        "ultimate fighting games rating/The King of Fighters XV/character_vice.png",
+        "ultimate fighting games rating/The King of Fighters XV/character_mature.png"
 
     ];
 
