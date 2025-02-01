@@ -24,7 +24,8 @@ document.addEventListener('DOMContentLoaded', function () {
         "ultimate fighting games rating/Under Night In-Birth II [SysCeles]/yuzuriha.png",
         "ultimate fighting games rating/Under Night In-Birth II [SysCeles]/waldstein.png",
         "ultimate fighting games rating/Under Night In-Birth II [SysCeles]/wagner.png",
-        "ultimate fighting games rating/Under Night In-Birth II [SysCeles]/vatista.png"
+        "ultimate fighting games rating/Under Night In-Birth II [SysCeles]/vatista.png",
+        "ultimate fighting games rating/Under Night In-Birth II [SysCeles]/uduki.png"
 
     ];
 
