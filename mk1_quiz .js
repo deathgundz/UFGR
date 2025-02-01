@@ -24,7 +24,13 @@ document.addEventListener('DOMContentLoaded', function () {
         "ultimate fighting games rating/Mortal Kombat 1/SHANG TSUNG.png",
         "ultimate fighting games rating/Mortal Kombat 1/SMOKE.png",
         "ultimate fighting games rating/Mortal Kombat 1/SUB-ZERO.png",
-        "ultimate fighting games rating/Mortal Kombat 1/TANYA.png"
+        "ultimate fighting games rating/Mortal Kombat 1/TANYA.png",
+        "ultimate fighting games rating/Mortal Kombat 1/CYRAX.webp",
+        "ultimate fighting games rating/Mortal Kombat 1/NOOB SAIBOT.webp",
+        "ultimate fighting games rating/Mortal Kombat 1/SEKTOR.webp",
+        "ultimate fighting games rating/Mortal Kombat 1/TAKEDA.webp",
+        "ultimate fighting games rating/Mortal Kombat 1/HOMELANDER.webp",
+        "ultimate fighting games rating/Mortal Kombat 1/GHOST FACE.webp"
     ];
 
     let currentIndex = 0;
